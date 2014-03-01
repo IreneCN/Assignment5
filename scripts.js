@@ -32,10 +32,10 @@ function dataUp(uEMPDATA){            //uEMPDATA is the local name for the JSON 
 	var DataTable = google.visualization.arrayToDataTable(arrayArray); //I'm putting data into my visualization library
 	
 	
-	var ChartChoices = {                           //create options object to actually customize the look of our chart
+	var ChartChoices = {                           //create options object to customize the look of my chart
           title: "Unemployment Since 1980"       //This is a configuration option
         };
-	//tells Google Visualization to create a line chart and give it to the
+	//tells Google Visualization to create a line chart
 	var ThisChart = new google.visualization.LineChart(document.getElementById('newChartDiv')); //I've created type of chart e.g. BarChart to LineChart etc
 	ThisChart.draw(DataTable,ChartChoices);
 }
@@ -53,7 +53,7 @@ function GoogleUp() {
 
 function docUp() {
 
-	console.log("My page is up!");
+	console.log("My page is up!"); //This is to test that my page was uploaded
 
 	//I'm loading the google visualization library
 	google.load("visualization", "1", {
