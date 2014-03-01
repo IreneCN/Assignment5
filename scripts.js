@@ -2,6 +2,21 @@
  * @author Chidinma Irene Nwoye
  */
 
+
+//Steps
+//1. Load the jQuery library
+//2. Set up a javascript file
+//3. console.log to test the javascript file
+//4. Add the document.ready call
+//5. Include a function activated on document ready
+//6. Console.log the function to test it's working
+//7. Load the Google Viz library
+//8. load the data and include that data to the library 
+//9. Take the data to viz library
+//10. Put the data in a format that the library can access
+//11. Create an array of arrays from the JSON data, specifically the date to value
+//12. Tell the library what type of chart I need and also tell library where to put the chart
+
 console.log("My Javascript is working"); //I'm testing my javascript file
 
 function dataUp(uEMPDATA){            //uEMPDATA is the local name for the JSON file
